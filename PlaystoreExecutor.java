@@ -1,0 +1,82 @@
+class PlaystoreExecutor {
+    public static void main(String[] details) {
+
+        boolean appCreated;
+
+        appCreated = Playstore.createApp("Strava","Strava Inc.","Health","4.5","100M","85MB","352.10","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Instagram","Meta","Social","4.6","500M","75MB","320.1","true","Feb 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("WhatsApp","Meta","Communication","4.7","5B","65MB","2.24","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Spotify","Spotify Ltd","Music","4.4","1B","95MB","8.9","true","Dec 2025");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Snapchat","Snap Inc.","Social","4.2","1B","70MB","12.5","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Telegram","Telegram FZ","Communication","4.5","1B","60MB","10.2","true","Feb 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Facebook","Meta","Social","4.1","5B","80MB","420.0","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("YouTube","Google","Video","4.6","10B","110MB","19.2","true","Feb 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Google Maps","Google","Navigation","4.5","5B","120MB","11.8","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Amazon","Amazon Mobile","Shopping","4.3","500M","95MB","26.1","true","Feb 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Flipkart","Flipkart","Shopping","4.4","500M","90MB","7.5","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Twitter","X Corp","Social","4.0","1B","85MB","10.1","true","Dec 2025");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("LinkedIn","Microsoft","Business","4.3","1B","70MB","4.1","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Zoom","Zoom Video","Business","4.2","500M","100MB","5.16","true","Feb 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Google Pay","Google","Finance","4.4","1B","65MB","221.1","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("PhonePe","PhonePe","Finance","4.5","500M","60MB","12.7","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Paytm","Paytm","Finance","4.3","500M","75MB","9.3","true","Feb 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Swiggy","Swiggy","Food","4.4","100M","85MB","4.21","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Zomato","Zomato","Food","4.5","100M","80MB","18.2","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Ola","Ola Cabs","Travel","4.1","100M","95MB","6.7","true","Dec 2025");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Uber","Uber Tech","Travel","4.3","500M","100MB","4.512","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Netflix","Netflix Inc","Entertainment","4.4","1B","120MB","8.100","false","Feb 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Hotstar","Disney","Entertainment","4.2","500M","110MB","23.1","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("MX Player","MX Media","Video","4.3","1B","90MB","1.75","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Canva","Canva Pty","Design","4.6","100M","95MB","2.230","true","Feb 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("PicsArt","PicsArt Inc","Photography","4.5","1B","105MB","24.3","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Adobe Scan","Adobe","Productivity","4.4","100M","85MB","23.11","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Google Drive","Google","Productivity","4.5","5B","95MB","2.24","true","Feb 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Dropbox","Dropbox Inc","Productivity","4.2","1B","80MB","312.2","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Notion","Notion Labs","Productivity","4.6","50M","70MB","0.6","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Duolingo","Duolingo","Education","4.7","500M","85MB","5.120","true","Feb 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Byjus","Byjus","Education","4.1","100M","120MB","12.9","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Coursera","Coursera Inc","Education","4.4","100M","95MB","5.5","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Udemy","Udemy","Education","4.5","100M","90MB","8.9","true","Feb 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Khan Academy","Khan Academy","Education","4.6","50M","75MB","7.12","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Brainly","Brainly","Education","4.3","100M","80MB","5.8","true","Jan 2026");
+		        Playstore.getAppDetails();
+        appCreated = Playstore.createApp("Photomath","Photomath","Education","4.7","100M","85MB","8.31","true","Feb 2026");
+
+        Playstore.getAppDetails();
+    }
+}
