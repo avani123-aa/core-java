@@ -1,51 +1,50 @@
-class Cricket
-{
-    String playerName;
-    int age;
-    String country;
-    String team;
-    int matches;
-    int runs;
-    int wickets;
-    int catches;
-    int hundreds;
-    int fifties;
-    double strikeRate;
-    double average;
-    String role;
-    String battingStyle;
-    String bowlingStyle;
-    int jerseyNumber;
-    String format;
-    String stadium;
-    String coach;
-    int ranking;   
+class Cricket{
 
-    Cricket()
-    {
-    }
+String playerName;
+String team;
+int runs;
+int wickets;
+int matches;
+double average;
+String role;
+int jerseyNumber;
+String country;
+int age;
+double strikeRate;
+int catches;
+int stumpings;
+String battingStyle;
+String bowlingStyle;
+String format;
+int sixes;
+int fours;
+String captain;
+int ranking;
 
-    Cricket(String playerName,int age,String country,String team,int matches,int runs,int wickets,int catches,int hundreds,int fifties,double strikeRate,double average,String role,String battingStyle,String bowlingStyle,int jerseyNumber,String format,String stadium,String coach,int ranking)
-    {
-        this.playerName = playerName;
-        this.age = age;
-        this.country = country;
-        this.team = team;
-        this.matches = matches;
-        this.runs = runs;
-        this.wickets = wickets;
-        this.catches = catches;
-        this.hundreds = hundreds;
-        this.fifties = fifties;
-        this.strikeRate = strikeRate;
-        this.average = average;
-        this.role = role;
-        this.battingStyle = battingStyle;
-        this.bowlingStyle = bowlingStyle;
-        this.jerseyNumber = jerseyNumber;
-        this.format = format;
-        this.stadium = stadium;
-        this.coach = coach;
-        this.ranking = ranking;
-    }
+Cricket(){
+}
+
+Cricket(String playerName,String team,int runs,int wickets,int matches,double average,String role,int jerseyNumber,String country,int age,double strikeRate,int catches,int stumpings,String battingStyle,String bowlingStyle,String format,int sixes,int fours,String captain,int ranking){
+this.playerName=playerName;
+this.team=team;
+this.runs=runs;
+this.wickets=wickets;
+this.matches=matches;
+this.average=average;
+this.role=role;
+this.jerseyNumber=jerseyNumber;
+this.country=country;
+this.age=age;
+this.strikeRate=strikeRate;
+this.catches=catches;
+this.stumpings=stumpings;
+this.battingStyle=battingStyle;
+this.bowlingStyle=bowlingStyle;
+this.format=format;
+this.sixes=sixes;
+this.fours=fours;
+this.captain=captain;
+this.ranking=ranking;
+}
+
 }

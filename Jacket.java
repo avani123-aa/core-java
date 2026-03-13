@@ -1,21 +1,20 @@
-class Jacket
-{
-    String brand;
-    String color;
-    String size;
-    double price;
-    String material;
+class Jacket{
 
-    Jacket()
-    {
-    }
+String brand;
+String colour;
+String material;
+int size;
+double price;
 
-    Jacket(String brand, String color, String size, double price, String material)
-    {
-        this.brand = brand;
-        this.color = color;
-        this.size = size;
-        this.price = price;
-        this.material = material;
-    }
+Jacket(){
+}
+
+Jacket(String brand,String colour,String material,int size,double price){
+this.brand=brand;
+this.colour=colour;
+this.material=material;
+this.size=size;
+this.price=price;
+}
+
 }

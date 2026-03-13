@@ -1,15 +1,13 @@
-class Coffee
-{
-    int price;
-    String type;   
+class Coffee{
+String brand;
+int price;
 
-    Coffee()
-    {
-    }
+Coffee(){
+}
 
-    Coffee(int price, String type)
-    {
-        this.price = price;
-        this.type = type;
-    }
+Coffee(String brand,int price){
+this.brand=brand;
+this.price=price;
+}
+
 }

@@ -176,6 +176,5 @@ System.out.println(p24.colour);
 
 Bangle p25 = new Bangle("Indigo");
 System.out.println(p25.colour);
-
 }
 }

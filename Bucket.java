@@ -1,21 +1,19 @@
-class Bucket
-{
-    String material;
-    String color;
-    int capacity;
-    double price;
-    String brand;   
-	
-    Bucket()
-    {
-    }
+class Bucket{
 
-    Bucket(String material, String color, int capacity, double price, String brand)
-    {
-        this.material = material;
-        this.color = color;
-        this.capacity = capacity;
-        this.price = price;
-        this.brand = brand;
-    }
+String brand;
+String colour;
+String material;
+int capacity;
+double price;
+
+Bucket(){
+}
+
+Bucket(String brand,String colour,String material,int capacity,double price){
+this.brand=brand;
+this.colour=colour;
+this.material=material;
+this.capacity=capacity;
+this.price=price;
+}
 }

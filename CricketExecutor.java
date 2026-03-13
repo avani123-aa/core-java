@@ -1,59 +1,71 @@
-class CricketExecutor
-{
-    public static void main(String[] args)
-    {
+class CricketExecutor{
+public static void main(String[] args){
 
-        Cricket c1 = new Cricket(); c1.playerName="Player1"; c1.age=25; c1.country="India"; c1.team="RCB"; c1.matches=100; c1.runs=3000; c1.wickets=10; c1.catches=20; c1.hundreds=5; c1.fifties=15; c1.strikeRate=130.5; c1.average=45.5; c1.role="Batsman"; c1.battingStyle="Right"; c1.bowlingStyle="Medium"; c1.jerseyNumber=18; c1.format="T20"; c1.stadium="Chinnaswamy"; c1.coach="Coach1"; c1.ranking=1;
-        Cricket c2 = new Cricket(); c2.playerName="Player2"; c2.age=26; c2.country="India"; c2.team="MI"; c2.matches=120; c2.runs=3500; c2.wickets=15; c2.catches=25; c2.hundreds=6; c2.fifties=18; c2.strikeRate=132.5; c2.average=46.5; c2.role="Batsman"; c2.battingStyle="Right"; c2.bowlingStyle="Spin"; c2.jerseyNumber=45; c2.format="ODI"; c2.stadium="Wankhede"; c2.coach="Coach2"; c2.ranking=2;
-        Cricket c3 = new Cricket(); c3.playerName="Player3"; c3.age=27; c3.country="India"; c3.team="CSK"; c3.matches=140; c3.runs=4200; c3.wickets=20; c3.catches=40; c3.hundreds=8; c3.fifties=25; c3.strikeRate=138.2; c3.average=48.2; c3.role="Batsman"; c3.battingStyle="Right"; c3.bowlingStyle="Medium"; c3.jerseyNumber=10; c3.format="Test"; c3.stadium="Chepauk"; c3.coach="Coach3"; c3.ranking=3;
-        Cricket c4 = new Cricket(); c4.playerName="Player4"; c4.age=28; c4.country="Australia"; c4.team="KKR"; c4.matches=90; c4.runs=2500; c4.wickets=30; c4.catches=15; c4.hundreds=3; c4.fifties=10; c4.strikeRate=125.5; c4.average=40.5; c4.role="AllRounder"; c4.battingStyle="Left"; c4.bowlingStyle="Fast"; c4.jerseyNumber=7; c4.format="T20"; c4.stadium="Eden"; c4.coach="Coach4"; c4.ranking=4;
-        Cricket c5 = new Cricket(); c5.playerName="Player5"; c5.age=29; c5.country="India"; c5.team="DC"; c5.matches=110; c5.runs=3200; c5.wickets=12; c5.catches=28; c5.hundreds=4; c5.fifties=17; c5.strikeRate=129.2; c5.average=44.3; c5.role="Batsman"; c5.battingStyle="Left"; c5.bowlingStyle="Spin"; c5.jerseyNumber=12; c5.format="ODI"; c5.stadium="Delhi"; c5.coach="Coach5"; c5.ranking=5;
-        Cricket c6 = new Cricket(); c6.playerName="Player6"; c6.age=30; c6.country="India"; c6.team="GT"; c6.matches=150; c6.runs=5000; c6.wickets=5; c6.catches=50; c6.hundreds=10; c6.fifties=30; c6.strikeRate=140.1; c6.average=52.4; c6.role="Batsman"; c6.battingStyle="Right"; c6.bowlingStyle="Medium"; c6.jerseyNumber=33; c6.format="T20"; c6.stadium="Ahmedabad"; c6.coach="Coach6"; c6.ranking=6;
-        Cricket c7 = new Cricket(); c7.playerName="Player7"; c7.age=23; c7.country="India"; c7.team="RR"; c7.matches=80; c7.runs=2000; c7.wickets=35; c7.catches=12; c7.hundreds=2; c7.fifties=9; c7.strikeRate=120.4; c7.average=38.2; c7.role="Bowler"; c7.battingStyle="Right"; c7.bowlingStyle="Fast"; c7.jerseyNumber=22; c7.format="ODI"; c7.stadium="Jaipur"; c7.coach="Coach7"; c7.ranking=7;
-        Cricket c8 = new Cricket(); c8.playerName="Player8"; c8.age=31; c8.country="SA"; c8.team="SRH"; c8.matches=160; c8.runs=4700; c8.wickets=25; c8.catches=42; c8.hundreds=9; c8.fifties=28; c8.strikeRate=136.4; c8.average=49.6; c8.role="AllRounder"; c8.battingStyle="Left"; c8.bowlingStyle="Fast"; c8.jerseyNumber=8; c8.format="T20"; c8.stadium="Hyderabad"; c8.coach="Coach8"; c8.ranking=8;
-        Cricket c9 = new Cricket(); c9.playerName="Player9"; c9.age=30; c9.country="NZ"; c9.team="LSG"; c9.matches=170; c9.runs=5200; c9.wickets=8; c9.catches=55; c9.hundreds=11; c9.fifties=33; c9.strikeRate=142.3; c9.average=53.1; c9.role="Batsman"; c9.battingStyle="Right"; c9.bowlingStyle="Medium"; c9.jerseyNumber=9; c9.format="ODI"; c9.stadium="Lucknow"; c9.coach="Coach9"; c9.ranking=9;
-        Cricket c10 = new Cricket(); c10.playerName="Player10"; c10.age=22; c10.country="India"; c10.team="PBKS"; c10.matches=70; c10.runs=1500; c10.wickets=40; c10.catches=8; c10.hundreds=1; c10.fifties=6; c10.strikeRate=118.5; c10.average=35.2; c10.role="Bowler"; c10.battingStyle="Left"; c10.bowlingStyle="Fast"; c10.jerseyNumber=14; c10.format="T20"; c10.stadium="Mohali"; c10.coach="Coach10"; c10.ranking=10;
-        Cricket c11 = new Cricket(); c11.playerName="Player11"; c11.age=26; c11.country="India"; c11.team="RCB"; c11.matches=100; c11.runs=3000; c11.wickets=10; c11.catches=20; c11.hundreds=5; c11.fifties=15; c11.strikeRate=130.5; c11.average=45.5; c11.role="Batsman"; c11.battingStyle="Right"; c11.bowlingStyle="Medium"; c11.jerseyNumber=18; c11.format="T20"; c11.stadium="Chinnaswamy"; c11.coach="Coach11"; c11.ranking=11;
-        Cricket c12 = new Cricket(); c12.playerName="Player12"; c12.age=27; c12.country="India"; c12.team="MI"; c12.matches=120; c12.runs=3500; c12.wickets=15; c12.catches=25; c12.hundreds=6; c12.fifties=18; c12.strikeRate=132.5; c12.average=46.5; c12.role="Batsman"; c12.battingStyle="Right"; c12.bowlingStyle="Spin"; c12.jerseyNumber=45; c12.format="ODI"; c12.stadium="Wankhede"; c12.coach="Coach12"; c12.ranking=12;
-        Cricket c13 = new Cricket(); c13.playerName="Player13"; c13.age=28; c13.country="India"; c13.team="CSK"; c13.matches=140; c13.runs=4200; c13.wickets=20; c13.catches=40; c13.hundreds=8; c13.fifties=25; c13.strikeRate=138.2; c13.average=48.2; c13.role="Batsman"; c13.battingStyle="Right"; c13.bowlingStyle="Medium"; c13.jerseyNumber=10; c13.format="Test"; c13.stadium="Chepauk"; c13.coach="Coach13"; c13.ranking=13;
-        Cricket c14 = new Cricket(); c14.playerName="Player14"; c14.age=29; c14.country="Australia"; c14.team="KKR"; c14.matches=90; c14.runs=2500; c14.wickets=30; c14.catches=15; c14.hundreds=3; c14.fifties=10; c14.strikeRate=125.5; c14.average=40.5; c14.role="AllRounder"; c14.battingStyle="Left"; c14.bowlingStyle="Fast"; c14.jerseyNumber=7; c14.format="T20"; c14.stadium="Eden"; c14.coach="Coach14"; c14.ranking=14;
-        Cricket c15 = new Cricket(); c15.playerName="Player15"; c15.age=24; c15.country="India"; c15.team="DC"; c15.matches=110; c15.runs=3200; c15.wickets=12; c15.catches=28; c15.hundreds=4; c15.fifties=17; c15.strikeRate=129.2; c15.average=44.3; c15.role="Batsman"; c15.battingStyle="Left"; c15.bowlingStyle="Spin"; c15.jerseyNumber=12; c15.format="ODI"; c15.stadium="Delhi"; c15.coach="Coach15"; c15.ranking=15;
-        Cricket c16 = new Cricket(); c16.playerName="Player16"; c16.age=30; c16.country="India"; c16.team="GT"; c16.matches=150; c16.runs=5000; c16.wickets=5; c16.catches=50; c16.hundreds=10; c16.fifties=30; c16.strikeRate=140.1; c16.average=52.4; c16.role="Batsman"; c16.battingStyle="Right"; c16.bowlingStyle="Medium"; c16.jerseyNumber=33; c16.format="T20"; c16.stadium="Ahmedabad"; c16.coach="Coach16"; c16.ranking=16;
-        Cricket c17 = new Cricket(); c17.playerName="Player17"; c17.age=23; c17.country="India"; c17.team="RR"; c17.matches=80; c17.runs=2000; c17.wickets=35; c17.catches=12; c17.hundreds=2; c17.fifties=9; c17.strikeRate=120.4; c17.average=38.2; c17.role="Bowler"; c17.battingStyle="Right"; c17.bowlingStyle="Fast"; c17.jerseyNumber=22; c17.format="ODI"; c17.stadium="Jaipur"; c17.coach="Coach17"; c17.ranking=17;
-        Cricket c18 = new Cricket(); c18.playerName="Player18"; c18.age=31; c18.country="SA"; c18.team="SRH"; c18.matches=160; c18.runs=4700; c18.wickets=25; c18.catches=42; c18.hundreds=9; c18.fifties=28; c18.strikeRate=136.4; c18.average=49.6; c18.role="AllRounder"; c18.battingStyle="Left"; c18.bowlingStyle="Fast"; c18.jerseyNumber=8; c18.format="T20"; c18.stadium="Hyderabad"; c18.coach="Coach18"; c18.ranking=18;
-        Cricket c19 = new Cricket(); c19.playerName="Player19"; c19.age=30; c19.country="NZ"; c19.team="LSG"; c19.matches=170; c19.runs=5200; c19.wickets=8; c19.catches=55; c19.hundreds=11; c19.fifties=33; c19.strikeRate=142.3; c19.average=53.1; c19.role="Batsman"; c19.battingStyle="Right"; c19.bowlingStyle="Medium"; c19.jerseyNumber=9; c19.format="ODI"; c19.stadium="Lucknow"; c19.coach="Coach19"; c19.ranking=19;
-        Cricket c20 = new Cricket(); c20.playerName="Player20"; c20.age=22; c20.country="India"; c20.team="PBKS"; c20.matches=70; c20.runs=1500; c20.wickets=40; c20.catches=8; c20.hundreds=1; c20.fifties=6; c20.strikeRate=118.5; c20.average=35.2; c20.role="Bowler"; c20.battingStyle="Left"; c20.bowlingStyle="Fast"; c20.jerseyNumber=14; c20.format="T20"; c20.stadium="Mohali"; c20.coach="Coach20"; c20.ranking=20;
-        Cricket c21 = new Cricket(); c21.playerName="Player21"; c21.age=25; c21.country="India"; c21.team="RCB"; c21.matches=100; c21.runs=3000; c21.wickets=10; c21.catches=20; c21.hundreds=5; c21.fifties=15; c21.strikeRate=130.5; c21.average=45.5; c21.role="Batsman"; c21.battingStyle="Right"; c21.bowlingStyle="Medium"; c21.jerseyNumber=18; c21.format="T20"; c21.stadium="Chinnaswamy"; c21.coach="Coach21"; c21.ranking=21;
-        Cricket c22 = new Cricket(); c22.playerName="Player22"; c22.age=26; c22.country="India"; c22.team="MI"; c22.matches=120; c22.runs=3500; c22.wickets=15; c22.catches=25; c22.hundreds=6; c22.fifties=18; c22.strikeRate=132.5; c22.average=46.5; c22.role="Batsman"; c22.battingStyle="Right"; c22.bowlingStyle="Spin"; c22.jerseyNumber=45; c22.format="ODI"; c22.stadium="Wankhede"; c22.coach="Coach22"; c22.ranking=22;
-        Cricket c23 = new Cricket(); c23.playerName="Player23"; c23.age=27; c23.country="India"; c23.team="CSK"; c23.matches=140; c23.runs=4200; c23.wickets=20; c23.catches=40; c23.hundreds=8; c23.fifties=25; c23.strikeRate=138.2; c23.average=48.2; c23.role="Batsman"; c23.battingStyle="Right"; c23.bowlingStyle="Medium"; c23.jerseyNumber=10; c23.format="Test"; c23.stadium="Chepauk"; c23.coach="Coach23"; c23.ranking=23;
-        Cricket c24 = new Cricket(); c24.playerName="Player24"; c24.age=28; c24.country="Australia"; c24.team="KKR"; c24.matches=90; c24.runs=2500; c24.wickets=30; c24.catches=15; c24.hundreds=3; c24.fifties=10; c24.strikeRate=125.5; c24.average=40.5; c24.role="AllRounder"; c24.battingStyle="Left"; c24.bowlingStyle="Fast"; c24.jerseyNumber=7; c24.format="T20"; c24.stadium="Eden"; c24.coach="Coach24"; c24.ranking=24;
-        Cricket c25 = new Cricket(); c25.playerName="Player25"; c25.age=29; c25.country="India"; c25.team="DC"; c25.matches=110; c25.runs=3200; c25.wickets=12; c25.catches=28; c25.hundreds=4; c25.fifties=17; c25.strikeRate=129.2; c25.average=44.3; c25.role="Batsman"; c25.battingStyle="Left"; c25.bowlingStyle="Spin"; c25.jerseyNumber=12; c25.format="ODI"; c25.stadium="Delhi"; c25.coach="Coach25"; c25.ranking=25;
+Cricket c1=new Cricket();
+c1.playerName="Virat Kohli";
+c1.team="RCB";
+c1.runs=12000;
+c1.wickets=4;
+c1.matches=270;
+c1.average=58.5;
+c1.role="Batsman";
+c1.jerseyNumber=18;
+c1.country="India";
+c1.age=35;
+c1.strikeRate=137.5;
+c1.catches=120;
+c1.stumpings=0;
+c1.battingStyle="Right Hand";
+c1.bowlingStyle="Right Arm Medium";
+c1.format="ODI";
+c1.sixes=140;
+c1.fours=1100;
+c1.captain="Rohit Sharma";
+c1.ranking=2;
 
-        Cricket a1 = new Cricket("Player1",25,"India","RCB",100,3000,10,20,5,15,130.5,45.5,"Batsman","Right","Medium",18,"T20","Chinnaswamy","Coach1",1);
-        Cricket a2 = new Cricket("Player2",26,"India","MI",120,3500,15,25,6,18,132.5,46.5,"Batsman","Right","Spin",45,"ODI","Wankhede","Coach2",2);
-        Cricket a3 = new Cricket("Player3",27,"India","CSK",140,4200,20,40,8,25,138.2,48.2,"Batsman","Right","Medium",10,"Test","Chepauk","Coach3",3);
-        Cricket a4 = new Cricket("Player4",28,"Australia","KKR",90,2500,30,15,3,10,125.5,40.5,"AllRounder","Left","Fast",7,"T20","Eden","Coach4",4);
-        Cricket a5 = new Cricket("Player5",29,"India","DC",110,3200,12,28,4,17,129.2,44.3,"Batsman","Left","Spin",12,"ODI","Delhi","Coach5",5);
-        Cricket a6 = new Cricket("Player6",30,"India","GT",150,5000,5,50,10,30,140.1,52.4,"Batsman","Right","Medium",33,"T20","Ahmedabad","Coach6",6);
-        Cricket a7 = new Cricket("Player7",23,"India","RR",80,2000,35,12,2,9,120.4,38.2,"Bowler","Right","Fast",22,"ODI","Jaipur","Coach7",7);
-        Cricket a8 = new Cricket("Player8",31,"SA","SRH",160,4700,25,42,9,28,136.4,49.6,"AllRounder","Left","Fast",8,"T20","Hyderabad","Coach8",8);
-        Cricket a9 = new Cricket("Player9",30,"NZ","LSG",170,5200,8,55,11,33,142.3,53.1,"Batsman","Right","Medium",9,"ODI","Lucknow","Coach9",9);
-        Cricket a10 = new Cricket("Player10",22,"India","PBKS",70,1500,40,8,1,6,118.5,35.2,"Bowler","Left","Fast",14,"T20","Mohali","Coach10",10);
-        Cricket a11 = new Cricket("Player11",26,"India","RCB",100,3000,10,20,5,15,130.5,45.5,"Batsman","Right","Medium",18,"T20","Chinnaswamy","Coach11",11);
-        Cricket a12 = new Cricket("Player12",27,"India","MI",120,3500,15,25,6,18,132.5,46.5,"Batsman","Right","Spin",45,"ODI","Wankhede","Coach12",12);
-        Cricket a13 = new Cricket("Player13",28,"India","CSK",140,4200,20,40,8,25,138.2,48.2,"Batsman","Right","Medium",10,"Test","Chepauk","Coach13",13);
-        Cricket a14 = new Cricket("Player14",29,"Australia","KKR",90,2500,30,15,3,10,125.5,40.5,"AllRounder","Left","Fast",7,"T20","Eden","Coach14",14);
-        Cricket a15 = new Cricket("Player15",24,"India","DC",110,3200,12,28,4,17,129.2,44.3,"Batsman","Left","Spin",12,"ODI","Delhi","Coach15",15);
-        Cricket a16 = new Cricket("Player16",30,"India","GT",150,5000,5,50,10,30,140.1,52.4,"Batsman","Right","Medium",33,"T20","Ahmedabad","Coach16",16);
-        Cricket a17 = new Cricket("Player17",23,"India","RR",80,2000,35,12,2,9,120.4,38.2,"Bowler","Right","Fast",22,"ODI","Jaipur","Coach17",17);
-        Cricket a18 = new Cricket("Player18",31,"SA","SRH",160,4700,25,42,9,28,136.4,49.6,"AllRounder","Left","Fast",8,"T20","Hyderabad","Coach18",18);
-        Cricket a19 = new Cricket("Player19",30,"NZ","LSG",170,5200,8,55,11,33,142.3,53.1,"Batsman","Right","Medium",9,"ODI","Lucknow","Coach19",19);
-        Cricket a20 = new Cricket("Player20",22,"India","PBKS",70,1500,40,8,1,6,118.5,35.2,"Bowler","Left","Fast",14,"T20","Mohali","Coach20",20);
-        Cricket a21 = new Cricket("Player21",26,"India","RCB",100,3000,10,20,5,15,130.5,45.5,"Batsman","Right","Medium",18,"T20","Chinnaswamy","Coach21",21);
-        Cricket a22 = new Cricket("Player22",27,"India","MI",120,3500,15,25,6,18,132.5,46.5,"Batsman","Right","Spin",45,"ODI","Wankhede","Coach22",22);
-        Cricket a23 = new Cricket("Player23",28,"India","CSK",140,4200,20,40,8,25,138.2,48.2,"Batsman","Right","Medium",10,"Test","Chepauk","Coach23",23);
-        Cricket a24 = new Cricket("Player24",29,"Australia","KKR",90,2500,30,15,3,10,125.5,40.5,"AllRounder","Left","Fast",7,"T20","Eden","Coach24",24);
-        Cricket a25 = new Cricket("Player25",24,"India","DC",110,3200,12,28,4,17,129.2,44.3,"Batsman","Left","Spin",12,"ODI","Delhi","Coach25",25);
+System.out.println(c1.playerName);
+System.out.println(c1.team);
+System.out.println(c1.runs);
+System.out.println(c1.wickets);
+System.out.println(c1.matches);
+System.out.println(c1.average);
+System.out.println(c1.role);
+System.out.println(c1.jerseyNumber);
+System.out.println(c1.country);
+System.out.println(c1.age);
+System.out.println(c1.strikeRate);
+System.out.println(c1.catches);
+System.out.println(c1.stumpings);
+System.out.println(c1.battingStyle);
+System.out.println(c1.bowlingStyle);
+System.out.println(c1.format);
+System.out.println(c1.sixes);
+System.out.println(c1.fours);
+System.out.println(c1.captain);
+System.out.println(c1.ranking);
 
-    }
+Cricket p1=new Cricket("Rohit Sharma","MI",10800,8,250,49.5,"Batsman",45,"India",36,139.2,95,0,"Right Hand","Right Arm Off Spin","ODI",260,980,"Rohit Sharma",3);
+
+System.out.println(p1.playerName);
+System.out.println(p1.team);
+System.out.println(p1.runs);
+System.out.println(p1.wickets);
+System.out.println(p1.matches);
+System.out.println(p1.average);
+System.out.println(p1.role);
+System.out.println(p1.jerseyNumber);
+System.out.println(p1.country);
+System.out.println(p1.age);
+System.out.println(p1.strikeRate);
+System.out.println(p1.catches);
+System.out.println(p1.stumpings);
+System.out.println(p1.battingStyle);
+System.out.println(p1.bowlingStyle);
+System.out.println(p1.format);
+System.out.println(p1.sixes);
+System.out.println(p1.fours);
+System.out.println(p1.captain);
+System.out.println(p1.ranking);
+
+}
 }

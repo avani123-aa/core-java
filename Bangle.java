@@ -1,8 +1,7 @@
 class Bangle{
 String colour;  
 
-Bangle()
-{
+Bangle(){
 }
 
 Bangle(String colour){

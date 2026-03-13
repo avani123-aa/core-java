@@ -1,17 +1,14 @@
-class Ant
-{
-    int legs;
-    String color;
-    double size;   
+class Ant{
+String type;
+String colour;
+int legs;
 
-    Ant()
-    {
-    }
+Ant(){
+}
 
-    Ant(int legs, String color, double size)
-    {
-        this.legs = legs;
-        this.color = color;
-        this.size = size;
-    }
+Ant(String type,String colour,int legs){
+this.type=type;
+this.colour=colour;
+this.legs=legs;
+}
 }

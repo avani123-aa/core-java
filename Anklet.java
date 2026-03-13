@@ -1,13 +1,10 @@
-class Anklet
-{
-    int price;   
+class Anklet{
+String type;  
 
-    Anklet()
-    {
-    }
+Anklet(){
+}
 
-    Anklet(int price)
-    {
-        this.price = price;
-    }
+Anklet(String type){
+this.type = type;
+}
 }
