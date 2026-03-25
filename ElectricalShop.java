@@ -20,9 +20,8 @@ class ElectricalShop {
 
     public void getAppliances() {
         for (String item : appliances) {
-            if (item != null) {
                 System.out.println(item);
-            }
+            
         }
     }
 }

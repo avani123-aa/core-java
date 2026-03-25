@@ -20,9 +20,7 @@ class ECommerce {
 
     public void getProducts() {
         for (String product : productNames) {
-            if (product != null) {
                 System.out.println(product);
             }
-        }
     }
 }

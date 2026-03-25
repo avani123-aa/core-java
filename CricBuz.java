@@ -20,9 +20,7 @@ class CricBuz {
 
     public void getTeams() {
         for (String team : teamNames) {
-            if (team != null) {
                 System.out.println(team);
-            }
         }
     }
 }

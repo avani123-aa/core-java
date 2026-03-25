@@ -21,9 +21,7 @@ class Gym {
     public void getEquipments() {
 
         for (String equipment : equipments) {
-            if (equipment != null) {
                 System.out.println(equipment);
             }
         }
     }
-}

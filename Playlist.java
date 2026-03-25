@@ -21,9 +21,7 @@ class PlayList {
     public void getSongs() {
 
         for (String song : songNames) {
-            if (song != null) {
                 System.out.println(song);
-            }
         }
     }
 }

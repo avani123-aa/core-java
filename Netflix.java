@@ -3,7 +3,6 @@ class Netflix {
     private String webSeries[] = new String[18];
     int index;
 
-    // ADD METHOD
     public boolean addWebSeries(String seriesName) {
 
         boolean isAdded = false;
@@ -19,13 +18,10 @@ class Netflix {
         return isAdded;
     }
 
-    // GET METHOD (your style)
     public void getWebSeries() {
 
         for (String series : webSeries) {
-            if (series != null) {
                 System.out.println(series);
             }
         }
     }
-}

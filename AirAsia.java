@@ -20,9 +20,8 @@ class AirAsia {
 
     public void getPassengers() {
         for (String person : passengers) {
-            if (person != null) {
                 System.out.println(person);
             }
-        }
+        
     }
 }

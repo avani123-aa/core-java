@@ -26,9 +26,7 @@ class AppManager {
 	   }
 	   public void getAppNames(){
 		   for(String appName : appNames){
-			   if (appName !=null){
 			   System.out.println(appName);
-			   }
 		   }
 	   }
 

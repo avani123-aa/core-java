@@ -21,9 +21,7 @@ class PhonePe {
     public void getInsurance() {
 
         for (String name : insuranceNames) {
-            if (name != null) {
                 System.out.println(name);
             }
         }
     }
-}
